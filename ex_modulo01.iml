@@ -1,11 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+// Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+
+public class Main {
+    public static void main(String[] args){
+        double nota01 = 8.9;
+        double nota02 = 7.5;
+        double media = (nota01 + nota02) /2;
+
+        System.out.println(" A média é: " +media);
+    }
+}
+   /*
+   Caso o usuario deseje informar qualquer valor
+  import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite nota 01:");
+        double nota01 = scanner.nextDouble();
+
+        System.out.println("Digite nota 02:");
+        double nota02 = scanner.nextDouble();
+
+        double media = (nota01 + nota02) / 2;
+        System.out.println("A média é: " + media);
+
+        scanner.close();
+    }
+}
+*/
